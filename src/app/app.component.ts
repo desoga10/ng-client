@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DataService } from './service/data.service';
-import { Observable, catchError } from 'rxjs';
 
 interface Post {
   userId: number;
